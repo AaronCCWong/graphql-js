@@ -35,8 +35,6 @@ before_install:
 before_script:
   - nvm use $TEST_NODE_VERSION
   - node --version
-  - rm -rf ./node_modules yarn.lock
-  - yarn install
 
 script:
   - if [[ "$TRAVIS_JOB_NUMBER" == *.1 ]]; then npm run test:ci; else npm run testonly; fi
