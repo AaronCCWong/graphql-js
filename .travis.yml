@@ -2,6 +2,8 @@ language: node_js
 
 # https://github.com/nodejs/LTS
 node_js:
+  - '9'
+  - '8'
   - '6'
 
 git:
@@ -22,11 +24,9 @@ cache: yarn
 
 matrix:
   include:
-  - env: TEST_NODE_VERSION=4
-  - env: TEST_NODE_VERSION=6
-  - env: TEST_NODE_VERSION=8
-  - env: TEST_NODE_VERSION=9
-  - env: TEST_NODE_VERSION=node
+    - node_js: 6
+      env: TEST_NODE_VERSION=4
+      env: TEST_NODE_VERSION=6
 
 before_install:
   - nvm install $TEST_NODE_VERSION
