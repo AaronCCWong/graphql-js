@@ -2,8 +2,6 @@ language: node_js
 
 # https://github.com/nodejs/LTS
 node_js:
-  - '9'
-  - '8'
   - '6'
 
 git:
@@ -35,7 +33,6 @@ before_install:
   - nvm use $TRAVIS_NODE_VERSION
 
 before_script:
-  - make build-node
   - nvm use $TEST_NODE_VERSION
   - node --version
   - rm -rf ./node_modules yarn.lock
