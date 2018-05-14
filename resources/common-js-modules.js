@@ -14,4 +14,4 @@
  */
 module.exports = process.env.BABEL_MODULES ?
   () => ({}) :
-  require('babel-plugin-transform-es2015-modules-commonjs');
+  require('@babel/plugin-transform-modules-commonjs');
