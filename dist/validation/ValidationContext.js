@@ -26,7 +26,23 @@ var ValidationContext =
 /*#__PURE__*/
 function () {
   function ValidationContext(schema, ast, typeInfo) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "_schema", void 0), "_ast", void 0), "_typeInfo", void 0), "_errors", void 0), "_fragments", void 0), "_fragmentSpreads", void 0), "_recursivelyReferencedFragments", void 0), "_variableUsages", void 0), "_recursiveVariableUsages", void 0);
+    _defineProperty(this, "_schema", void 0);
+
+    _defineProperty(this, "_ast", void 0);
+
+    _defineProperty(this, "_typeInfo", void 0);
+
+    _defineProperty(this, "_errors", void 0);
+
+    _defineProperty(this, "_fragments", void 0);
+
+    _defineProperty(this, "_fragmentSpreads", void 0);
+
+    _defineProperty(this, "_recursivelyReferencedFragments", void 0);
+
+    _defineProperty(this, "_variableUsages", void 0);
+
+    _defineProperty(this, "_recursiveVariableUsages", void 0);
 
     this._schema = schema;
     this._ast = ast;

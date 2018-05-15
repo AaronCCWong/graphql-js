@@ -20,7 +20,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  * line and column in locationOffset are 1-indexed
  */
 var Source = function Source(body, name, locationOffset) {
-  _defineProperty(_defineProperty(_defineProperty(this, "body", void 0), "name", void 0), "locationOffset", void 0);
+  _defineProperty(this, "body", void 0);
+
+  _defineProperty(this, "name", void 0);
+
+  _defineProperty(this, "locationOffset", void 0);
 
   this.body = body;
   this.name = name || 'GraphQL request';

@@ -27,7 +27,15 @@ export function isDirective(directive) {
  */
 
 export var GraphQLDirective = function GraphQLDirective(config) {
-  _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "locations", void 0), "args", void 0), "astNode", void 0);
+  _defineProperty(this, "name", void 0);
+
+  _defineProperty(this, "description", void 0);
+
+  _defineProperty(this, "locations", void 0);
+
+  _defineProperty(this, "args", void 0);
+
+  _defineProperty(this, "astNode", void 0);
 
   this.name = config.name;
   this.description = config.description;

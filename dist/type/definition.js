@@ -394,7 +394,17 @@ var GraphQLScalarType =
 /*#__PURE__*/
 function () {
   function GraphQLScalarType(config) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "astNode", void 0), "_scalarConfig", void 0), "toJSON", void 0), "inspect", void 0);
+    _defineProperty(this, "name", void 0);
+
+    _defineProperty(this, "description", void 0);
+
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "_scalarConfig", void 0);
+
+    _defineProperty(this, "toJSON", void 0);
+
+    _defineProperty(this, "inspect", void 0);
 
     this.name = config.name;
     this.description = config.description;
@@ -485,7 +495,25 @@ var GraphQLObjectType =
 /*#__PURE__*/
 function () {
   function GraphQLObjectType(config) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "astNode", void 0), "extensionASTNodes", void 0), "isTypeOf", void 0), "_typeConfig", void 0), "_fields", void 0), "_interfaces", void 0), "toJSON", void 0), "inspect", void 0);
+    _defineProperty(this, "name", void 0);
+
+    _defineProperty(this, "description", void 0);
+
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "extensionASTNodes", void 0);
+
+    _defineProperty(this, "isTypeOf", void 0);
+
+    _defineProperty(this, "_typeConfig", void 0);
+
+    _defineProperty(this, "_fields", void 0);
+
+    _defineProperty(this, "_interfaces", void 0);
+
+    _defineProperty(this, "toJSON", void 0);
+
+    _defineProperty(this, "inspect", void 0);
 
     this.name = config.name;
     this.description = config.description;
@@ -596,7 +624,23 @@ var GraphQLInterfaceType =
 /*#__PURE__*/
 function () {
   function GraphQLInterfaceType(config) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "astNode", void 0), "extensionASTNodes", void 0), "resolveType", void 0), "_typeConfig", void 0), "_fields", void 0), "toJSON", void 0), "inspect", void 0);
+    _defineProperty(this, "name", void 0);
+
+    _defineProperty(this, "description", void 0);
+
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "extensionASTNodes", void 0);
+
+    _defineProperty(this, "resolveType", void 0);
+
+    _defineProperty(this, "_typeConfig", void 0);
+
+    _defineProperty(this, "_fields", void 0);
+
+    _defineProperty(this, "toJSON", void 0);
+
+    _defineProperty(this, "inspect", void 0);
 
     this.name = config.name;
     this.description = config.description;
@@ -655,7 +699,21 @@ var GraphQLUnionType =
 /*#__PURE__*/
 function () {
   function GraphQLUnionType(config) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "astNode", void 0), "resolveType", void 0), "_typeConfig", void 0), "_types", void 0), "toJSON", void 0), "inspect", void 0);
+    _defineProperty(this, "name", void 0);
+
+    _defineProperty(this, "description", void 0);
+
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "resolveType", void 0);
+
+    _defineProperty(this, "_typeConfig", void 0);
+
+    _defineProperty(this, "_types", void 0);
+
+    _defineProperty(this, "toJSON", void 0);
+
+    _defineProperty(this, "inspect", void 0);
 
     this.name = config.name;
     this.description = config.description;
@@ -721,7 +779,21 @@ function () {
   function GraphQLEnumType(config
   /* <T> */
   ) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "astNode", void 0), "_values", void 0), "_valueLookup", void 0), "_nameLookup", void 0), "toJSON", void 0), "inspect", void 0);
+    _defineProperty(this, "name", void 0);
+
+    _defineProperty(this, "description", void 0);
+
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "_values", void 0);
+
+    _defineProperty(this, "_valueLookup", void 0);
+
+    _defineProperty(this, "_nameLookup", void 0);
+
+    _defineProperty(this, "toJSON", void 0);
+
+    _defineProperty(this, "inspect", void 0);
 
     this.name = config.name;
     this.description = config.description;
@@ -835,7 +907,19 @@ var GraphQLInputObjectType =
 /*#__PURE__*/
 function () {
   function GraphQLInputObjectType(config) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "name", void 0), "description", void 0), "astNode", void 0), "_typeConfig", void 0), "_fields", void 0), "toJSON", void 0), "inspect", void 0);
+    _defineProperty(this, "name", void 0);
+
+    _defineProperty(this, "description", void 0);
+
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "_typeConfig", void 0);
+
+    _defineProperty(this, "_fields", void 0);
+
+    _defineProperty(this, "toJSON", void 0);
+
+    _defineProperty(this, "inspect", void 0);
 
     this.name = config.name;
     this.description = config.description;

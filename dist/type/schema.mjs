@@ -56,7 +56,27 @@ function () {
   function GraphQLSchema(config) {
     var _this = this;
 
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "astNode", void 0), "extensionASTNodes", void 0), "_queryType", void 0), "_mutationType", void 0), "_subscriptionType", void 0), "_directives", void 0), "_typeMap", void 0), "_implementations", void 0), "_possibleTypeMap", void 0), "__validationErrors", void 0), "__allowedLegacyNames", void 0);
+    _defineProperty(this, "astNode", void 0);
+
+    _defineProperty(this, "extensionASTNodes", void 0);
+
+    _defineProperty(this, "_queryType", void 0);
+
+    _defineProperty(this, "_mutationType", void 0);
+
+    _defineProperty(this, "_subscriptionType", void 0);
+
+    _defineProperty(this, "_directives", void 0);
+
+    _defineProperty(this, "_typeMap", void 0);
+
+    _defineProperty(this, "_implementations", void 0);
+
+    _defineProperty(this, "_possibleTypeMap", void 0);
+
+    _defineProperty(this, "__validationErrors", void 0);
+
+    _defineProperty(this, "__allowedLegacyNames", void 0);
 
     // If this schema was built from a source known to be valid, then it may be
     // marked with assumeValid to avoid an additional type system validation.

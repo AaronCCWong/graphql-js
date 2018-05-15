@@ -174,7 +174,13 @@ export var ASTDefinitionBuilder =
 /*#__PURE__*/
 function () {
   function ASTDefinitionBuilder(typeDefinitionsMap, options, resolveType) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "_typeDefinitionsMap", void 0), "_options", void 0), "_resolveType", void 0), "_cache", void 0);
+    _defineProperty(this, "_typeDefinitionsMap", void 0);
+
+    _defineProperty(this, "_options", void 0);
+
+    _defineProperty(this, "_resolveType", void 0);
+
+    _defineProperty(this, "_cache", void 0);
 
     this._typeDefinitionsMap = typeDefinitionsMap;
     this._options = options;

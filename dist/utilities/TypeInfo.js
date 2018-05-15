@@ -31,7 +31,25 @@ function () {
   // to support non-spec-compliant codebases. You should never need to use it.
   getFieldDefFn, // Initial type may be provided in rare cases to facilitate traversals
   initialType) {
-    _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(this, "_schema", void 0), "_typeStack", void 0), "_parentTypeStack", void 0), "_inputTypeStack", void 0), "_fieldDefStack", void 0), "_defaultValueStack", void 0), "_directive", void 0), "_argument", void 0), "_enumValue", void 0), "_getFieldDef", void 0);
+    _defineProperty(this, "_schema", void 0);
+
+    _defineProperty(this, "_typeStack", void 0);
+
+    _defineProperty(this, "_parentTypeStack", void 0);
+
+    _defineProperty(this, "_inputTypeStack", void 0);
+
+    _defineProperty(this, "_fieldDefStack", void 0);
+
+    _defineProperty(this, "_defaultValueStack", void 0);
+
+    _defineProperty(this, "_directive", void 0);
+
+    _defineProperty(this, "_argument", void 0);
+
+    _defineProperty(this, "_enumValue", void 0);
+
+    _defineProperty(this, "_getFieldDef", void 0);
 
     this._schema = schema;
     this._typeStack = [];

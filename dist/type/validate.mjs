@@ -64,7 +64,9 @@ var SchemaValidationContext =
 /*#__PURE__*/
 function () {
   function SchemaValidationContext(schema) {
-    _defineProperty(_defineProperty(this, "_errors", void 0), "schema", void 0);
+    _defineProperty(this, "_errors", void 0);
+
+    _defineProperty(this, "schema", void 0);
 
     this._errors = [];
     this.schema = schema;
